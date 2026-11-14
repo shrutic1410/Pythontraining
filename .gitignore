@@ -1,0 +1,4 @@
+# Add the following lines inside .gitignore:
+# .venv/
+# __pycache__/
+# .env
