@@ -5,11 +5,11 @@ app = FastAPI()
 students = [
     {
         "id": 1,
-        "name": "Mani"
+        "name": "Shruti"
     },
     {
         "id": 2,
-        "name": "Ravi"
+        "name": "Aarav"
     }
 ]
 
