@@ -1,0 +1,43 @@
+2. What the program does
+
+Requirement	Implementation
+*************************
+Virtual environment => 	.venv setup instructions
+Install packages	 => requirements.txt
+Read CSV	 => csv.DictReader
+Write JSON	 => json.dump()
+High earners	 => Salary above 50000
+Excel	 => openpyxl
+PDF extraction	 => PyMuPDF
+Exception handling	 => try/except
+Logging	 => logging.error()
+Type hints	 => List, Optional, Union
+Employee search	 => find_employee()
+
+3. How to run the project
+Open the extracted folder in VS Code.
+
+Step 1: Open terminal and create virtual environment
+python -m venv .venv
+
+Step 2: Install required libraries
+pip install -r requirements.txt
+
+Step 3: Run the Python program
+python main.py
+
+4. Expected output
+With the supplied employees.csv, you should get:
+Rows read: 5 | High earners written: 3
+salary.xlsx created and read back: 5 rows
+ERROR - File not found: missing.txt
+PDF skipped: place a PDF in this folder or run with --pdf filename.pdf
+
+
+The error line may appear in a different order because logging uses stderr.
+5. PDF extraction
+To test the PDF requirement, put a PDF in the project folder and run:
+python main.py --pdf sample.pdf
+
+
+The program extracts page 1 and prints its first 100 characters.

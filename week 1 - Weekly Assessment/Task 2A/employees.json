@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "name": "Aarav Sharma",
+        "department": "IT",
+        "salary": 65000.0
+    },
+    {
+        "id": "2",
+        "name": "Diya Patel",
+        "department": "HR",
+        "salary": 48000.0
+    },
+    {
+        "id": "3",
+        "name": "Rohan Mehta",
+        "department": "Finance",
+        "salary": 72000.0
+    },
+    {
+        "id": "4",
+        "name": "Ananya Rao",
+        "department": "Marketing",
+        "salary": 55000.0
+    },
+    {
+        "id": "5",
+        "name": "Kabir Singh",
+        "department": "Sales",
+        "salary": 45000.0
+    }
+]

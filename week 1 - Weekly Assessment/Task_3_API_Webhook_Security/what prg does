@@ -1,0 +1,11 @@
+Concepts covered in this assignment
+Requirement	Implementation
+Environment variables	python-dotenv, os.getenv()
+Secure storage	.env, .gitignore
+API requests	requests.Session()
+Retry logic	Retry() and HTTPAdapter()
+REST API	JSONPlaceholder GET
+Nested JSON	.get()
+HMAC security	hmac.new()
+SHA-256	hashlib.sha256
+Secure comparison	hmac.compare_digest()

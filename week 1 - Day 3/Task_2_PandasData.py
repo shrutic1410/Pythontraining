@@ -28,7 +28,7 @@ df.info() # df.info()
 
 print("\n--- DESCRIBE ---")
 print(df.describe())
-# df.describe() computes summary statistics for numerical columns, revealing that the average (mean) salary is 58,500, with a minimum of 30,000 and a maximum of 90,000.
+# df.describe() computes summary statistics for numerical columns, revealing that the average (mean) salary  is 58,500, with a minimum of 30,000 and a maximum of 90,000.
 
 # 3. Column selection
 print("\n--- NAME COLUMN ---")
