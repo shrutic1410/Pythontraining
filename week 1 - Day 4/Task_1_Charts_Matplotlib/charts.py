@@ -10,7 +10,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 DATA_FILE = Path("employees.csv")
-OUTPUT_DIR = Path(".")
+OUTPUT_DIR = Path("./week 1 - Day 4/Task_1_Charts_Matplotlib/charts_output")
 
 def main():
     df = pd.read_csv(DATA_FILE)
